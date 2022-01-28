@@ -696,3 +696,66 @@ root {
 .mr-12 {
   margin-right: 2.75rem;
 }
+
+/* Positions */
+.position-static {
+  position: static;
+}
+.position-fixed {
+  position: fixed;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-relative {
+  position: relative;
+}
+.position-sticky {
+  position: sticky;
+}
+
+/* Displays */
+.d-none {
+  display: none;
+}
+.d-inline {
+  display: inline;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-block {
+  display: block;
+}
+.d-table {
+  display: table;
+}
+.d-table-row {
+  display: table-row;
+}
+.d-table-cell {
+  display: table-cell;
+}
+.d-flex {
+  display: flex;
+}
+
+/* Colors */
+.text-primary {
+  color: var(--light);
+}
+.text-accent {
+  color: var(--dark);
+}
+.text-grey {
+  color: var(--grey);
+}
+.text-light-blue {
+  color: var(--light-blue);
+}
+.text-light {
+  color: var(--light);
+}
+.text-dark {
+  color: var(--dark);
+}
