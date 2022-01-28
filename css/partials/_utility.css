@@ -740,22 +740,28 @@ root {
   display: flex;
 }
 
-/* Colors */
+/* Colors: Text, Background */
+.bg-primary,
 .text-primary {
   color: var(--light);
 }
+.bg-accent,
 .text-accent {
   color: var(--dark);
 }
+.bg-grey,
 .text-grey {
   color: var(--grey);
 }
+.bg-lightblue,
 .text-light-blue {
   color: var(--light-blue);
 }
+.bg-light,
 .text-light {
   color: var(--light);
 }
+.bg-dark,
 .text-dark {
   color: var(--dark);
 }
