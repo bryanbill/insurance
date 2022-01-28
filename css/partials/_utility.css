@@ -74,10 +74,28 @@ root {
 
 /* Sets padding to 0 along the x-axis */
 .px-0 {
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Sets padding to 0 along the y-axis */
 .py-0 {
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* We'll work with values from 0.125rem to 3rem to set our paddings */
+.p-1 {
+  padding: 0.125rem;
+}
+.px-1 {
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}
+.py-2 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.p-2 {
+  padding: 0.25rem;
 }
