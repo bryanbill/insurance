@@ -6,10 +6,6 @@ Date: 28.01.2022
 License: MIT
 */
 
-/* This utility is flexbox oriented */
-main {
-  display: flex;
-}
 /* Define Project Variables */
 root {
   --primary: #279af4;
@@ -836,4 +832,15 @@ root {
 }
 .z-1 {
   z-index: 1;
+}
+
+/* Shadows */
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.shadow-md {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.shadow-lg {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.175);
 }

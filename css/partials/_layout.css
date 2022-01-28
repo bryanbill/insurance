@@ -1,0 +1,24 @@
+/* 
+Title: Utility Partial 
+Author: Brian Omondi
+Email: brian.omondi@students.moringaschool.com
+Date: 28.01.2022
+License: MIT
+*/
+
+/* For this IP, we'll be focusing on 2 screen sizes, below 600px and above 600px*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html,
+body {
+  font: "MontSerrat", sans-serif;
+  height: 100%;
+}
+
+header {
+  background-image: url(../../assets/);
+  background-size: cover;
+}
+
