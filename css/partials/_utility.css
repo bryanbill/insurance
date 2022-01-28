@@ -1,0 +1,23 @@
+/* 
+Title: Utility Partial 
+Author: Brian Omondi
+Email: brian.omondi@students.moringaschool.com
+Date: 28.01.2022
+License: MIT
+*/
+
+/* This utility is flexbox oriented */
+main {
+  display: flex;
+}
+/* Define Project Variables */
+root {
+  --primary: #279af4;
+  --accent: #00d06e;
+  --dark: #282643;
+  --light: #ffffff;
+  --grey: #bdbdbd;
+  --light-blue: #8ebbf5;
+}
+
+/* Dimensions (Width and height) */
