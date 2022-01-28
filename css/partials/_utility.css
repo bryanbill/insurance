@@ -64,3 +64,20 @@ root {
 .h-5 {
   height: 5%;
 }
+
+/* Padding */
+
+/* Sets all paddings to 0 for all sides */
+.p-0 {
+  padding: 0;
+}
+
+/* Sets padding to 0 along the x-axis */
+.px-0 {
+  padding: 0;
+}
+
+/* Sets padding to 0 along the y-axis */
+.py-0 {
+  padding: 0;
+}
