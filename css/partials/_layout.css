@@ -6,19 +6,42 @@ Date: 28.01.2022
 License: MIT
 */
 
-/* For this IP, we'll be focusing on 2 screen sizes, below 600px and above 600px*/
+/* Import font Montserrat */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
+
+/* For this IP, we'll be focusing on 2 screen sizes, below 500px and above 500px*/
 * {
   box-sizing: border-box;
   margin: 0;
 }
 html,
 body {
-  font: "MontSerrat", sans-serif;
   height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
-header {
-  background-image: url(../../assets/);
+.bg-image {
+  background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("../../assets/hero.png");
+  width: 100%;
 }
 
+@media only screen and (max-width: 500px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+li > a,
+a:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: auto;
+}

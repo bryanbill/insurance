@@ -7,7 +7,7 @@ License: MIT
 */
 
 /* Define Project Variables */
-root {
+:root {
   --primary: #279af4;
   --accent: #00d06e;
   --dark: #282643;
@@ -843,4 +843,53 @@ root {
 }
 .shadow-lg {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.175);
+}
+
+/* Flex Properties */
+.grow-0 {
+  flex-grow: 0;
+}
+.grow-1 {
+  flex-grow: 1;
+}
+.shrink-0 {
+  flex-shrink: 0;
+}
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 5px;
+  box-shadow: 0;
+  border: none;
+  height: 30px;
+  width: auto;
+}
+
+.btn-neutral {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+}
+
+/* Columns */
+.col-6 {
+  width: 50%;
+}
+.col-12 {
+  width: 100%;
+}
+.col-4 {
+  width: 33.33333333%;
+}
+.col-3 {
+  width: 25%;
 }
