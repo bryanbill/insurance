@@ -27,8 +27,23 @@ body {
   width: 100%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
+  .px-sm-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .d-sm-none {
+    display: none;
+  }
+  .col-sm-8 {
+    width: 100%;
+  }
+  .d-sm-col {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .d-sm {
     display: none;
   }
 }
@@ -44,4 +59,11 @@ a:hover {
 
 .wrapper {
   margin: auto;
+}
+
+/* Customized margin utils */
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }

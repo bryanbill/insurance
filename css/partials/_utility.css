@@ -737,27 +737,39 @@ License: MIT
 }
 
 /* Colors: Text, Background */
-.bg-primary,
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-accent {
+  background-color: var(--accent);
+}
+.bg-grey {
+  background-color: var(--grey);
+}
+.bg-light {
+  background-color: var(--light);
+}
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
 .text-primary {
   color: var(--light);
 }
-.bg-accent,
 .text-accent {
   color: var(--dark);
 }
-.bg-grey,
 .text-grey {
   color: var(--grey);
 }
-.bg-lightblue,
 .text-light-blue {
   color: var(--light-blue);
 }
-.bg-light,
 .text-light {
   color: var(--light);
 }
-.bg-dark,
 .text-dark {
   color: var(--dark);
 }
@@ -871,7 +883,7 @@ License: MIT
 .btn-neutral {
   background-color: transparent;
   color: #fff;
-  border: none;
+  border: 1px solid #fff;
 }
 
 .btn-primary {
@@ -892,4 +904,9 @@ License: MIT
 }
 .col-3 {
   width: 25%;
+}
+/* Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
