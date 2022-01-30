@@ -16,6 +16,7 @@ License: MIT
   --grey: #bdbdbd;
   --light-blue: #8ebbf5;
   --light-grey: #f9f9f9;
+  --orange: #ff9f1c;
 }
 
 /* Dimensions (Width and height) */
@@ -765,6 +766,9 @@ License: MIT
 }
 .text-primary {
   color: var(--primary);
+}
+.text-yellow{
+  color: var(--orange);
 }
 .text-accent {
   color: var(--accent);
