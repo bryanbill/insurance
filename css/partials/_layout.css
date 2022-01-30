@@ -45,6 +45,9 @@ body {
   .text-left-sm {
     text-align: left;
   }
+  .text-right-sm {
+    text-align: right;
+  }
   .col-sm-8 {
     width: 100%;
   }
@@ -68,6 +71,9 @@ body {
   }
   .w-sm-full {
     width: 100%;
+  }
+  .w-sm-25 {
+    width: 25%;
   }
 }
 @media only screen and (min-width: 600px) {
