@@ -754,7 +754,7 @@ License: MIT
   background-color: var(--light-blue);
 }
 .bg-dark {
-  background-color: var(--dark);
+  background-color: var(--dark) !important;
 }
 .bg-muted {
   background-color: var(--muted);
@@ -763,7 +763,7 @@ License: MIT
   color: var(--primary);
 }
 .text-accent {
-  color: var(--dark);
+  color: var(--accent);
 }
 .text-grey {
   color: var(--grey);
@@ -887,7 +887,6 @@ License: MIT
   box-shadow: 0;
   border: none;
   height: 30px;
-  width: auto;
 }
 
 .btn-neutral {
