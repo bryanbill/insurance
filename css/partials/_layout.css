@@ -132,3 +132,7 @@ a:hover {
 .form-group{
   padding: 10px;
 }
+
+.pt-48{
+  padding-top: 12rem;
+}
