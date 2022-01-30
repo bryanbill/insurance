@@ -80,3 +80,39 @@ a:hover {
   width: 100%;
   background-color: var(--light);
 }
+
+/* Gradient BG */
+.bg-grad {
+  background: rgb(3, 70, 136);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(3, 70, 136, 1) 0%,
+    rgba(83, 51, 136, 1) 35%,
+    rgba(209, 21, 136, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(3, 70, 136, 1) 0%,
+    rgba(83, 51, 136, 1) 35%,
+    rgba(209, 21, 136, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(3, 70, 136, 1) 0%,
+    rgba(83, 51, 136, 1) 35%,
+    rgba(209, 21, 136, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#034688",endColorstr="#d11588",GradientType=1);
+}
+.subscribe {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: nowrap;
+  border-radius: 0.25rem;
+}
+.subscribe-input {
+  position: relative;
+  display: flex;
+}
