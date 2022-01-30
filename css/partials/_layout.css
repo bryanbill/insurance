@@ -116,3 +116,11 @@ a:hover {
   position: relative;
   display: flex;
 }
+
+.contact-cover{
+  background-image: url(../../assets/contact-cover.2.png);
+  height: 100%;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
