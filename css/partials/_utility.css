@@ -12,6 +12,7 @@ License: MIT
   --accent: #00d06e;
   --dark: #282643;
   --light: #ffffff;
+  --muted: #fafafa;
   --grey: #bdbdbd;
   --light-blue: #8ebbf5;
 }
@@ -755,6 +756,9 @@ License: MIT
 .bg-dark {
   background-color: var(--dark);
 }
+.bg-muted {
+  background-color: var(--muted);
+}
 .text-primary {
   color: var(--light);
 }
@@ -772,6 +776,9 @@ License: MIT
 }
 .text-dark {
   color: var(--dark);
+}
+.text-muted {
+  color: var(--muted);
 }
 
 /* Aligments */
