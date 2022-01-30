@@ -24,9 +24,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../assets/hero.png");
-  width: 100%;
+  
 }
-
+.filter-0 {
+  filter: 0 !important;
+}
+.filter-1 {
+  filter: brightness(0.5);
+}
 @media only screen and (max-width: 600px) {
   .px-sm-6 {
     padding-left: 1.5rem;
@@ -35,7 +40,7 @@ body {
   .d-sm-none {
     display: none;
   }
-  .text-left-sm{
+  .text-left-sm {
     text-align: left;
   }
   .col-sm-8 {
@@ -81,7 +86,6 @@ a:hover {
 
 .card {
   width: 100%;
-  background-color: var(--light);
 }
 
 /* Gradient BG */
@@ -129,10 +133,10 @@ a:hover {
   background-size: contain !important;
 }
 
-.form-group{
+.form-group {
   padding: 10px;
 }
 
-.pt-48{
+.pt-48 {
   padding-top: 12rem;
 }
