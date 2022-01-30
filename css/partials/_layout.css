@@ -35,6 +35,9 @@ body {
   .d-sm-none {
     display: none;
   }
+  .text-left-sm{
+    text-align: left;
+  }
   .col-sm-8 {
     width: 100%;
   }

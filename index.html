@@ -9,7 +9,7 @@
 
   <body>
     <main class="overflow-hidden">
-      <div class="wrapper h-100 bg-grey">
+      <div class="wrapper h-100 bg-muted">
         <div class="bg-image h-75">
           <header class="px-12 py-2 px-sm-6">
             <nav class="d-flex align-center justify-between w-100">
@@ -82,8 +82,8 @@
         </div>
       </div>
       <div class="px-12 py-12 bg-light">
-        <div class="row justify-between">
-          <div class="col-4 text-center px-2">
+        <div class="row justify-between d-sm-none">
+          <div class="col-4 col-sm-4 text-center px-2">
             <img src="./assets/directory.png" />
             <p>Peace of Mind</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -100,7 +100,7 @@
           </div>
         </div>
       </div>
-      <section id="industry" class="bg-grey h-auto">
+      <section id="industry" class="bg-muted h-auto">
         <div class="px-12">
           <div class="col-6 justify-center py-12 mx-auto text-center">
             <p>Industry</p>
@@ -109,12 +109,12 @@
               saepe natus quibusdam fugit quas consequatur!
             </p>
           </div>
-          <div class="row justify-between">
-            <div class="col-4 pr-6">
+          <div class="row d-sm-col justify-between">
+            <div class="col-4 col-sm-4 pr-6">
               <div
                 class="card shadow-sm text-center h-auto px-4 py-4 border-radius-md"
               >
-                <img src="./assets/user.1.png" class="h-25" />
+                <img src="./assets/user.1.png" class=" w-25" />
                 <div class="pt-5">
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -124,11 +124,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 pl-6 pr-6">
+            <div class="col-4 col-sm-4 pl-6 pr-6">
               <div
                 class="card shadow-sm text-center h-auto px-4 py-4 border-radius-md"
               >
-                <img src="./assets/user.2.png" class="h-25" />
+                <img src="./assets/user.2.png" class="w-25" />
                 <div class="pt-5">
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -138,11 +138,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 pl-6">
+            <div class="col-4 col-sm-4 pl-6">
               <div
                 class="card shadow-sm text-center h-auto px-4 py-4 border-radius-md"
               >
-                <img src="./assets/user.3.png" class="h-25" />
+                <img src="./assets/user.3.png" class="w-25" />
                 <div class="pt-5">
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -153,8 +153,8 @@
               </div>
             </div>
           </div>
-          <div class="">
-            <div class="row justify-between align-center">
+          <div class="pt-4">
+            <div class="row d-sm-col justify-between align-center">
               <div class="w-10 h-25">
                 <img src="./assets/Vector.png" class="w-100 h-50" />
               </div>
@@ -178,8 +178,8 @@
           </div>
           <div class="card shadow-sm bg-grad h-auto mt-12 py-6 px-6">
             <div class="row justify-between align-center">
-              <div class="col-6 subscribe-text">
-                SUbscribe for Latest Newsletter
+              <div class="col-6 subscribe-text d-sm-none">
+                Subscribe for Latest Newsletter
               </div>
               <div class="col-6 subscribe-input">
                 <input
@@ -205,8 +205,8 @@
           </div>
           <div class="mt-4">
             <!-- Price Cards -->
-            <div class="row justify-between align-end">
-              <div class="col-4">
+            <div class="row d-sm-col justify-between align-end">
+              <div class="col-4 col-sm-4">
                 <div
                   class="mr-1 card shadow-none text-center h-auto px-6 py-4 border-radius-md border-light-blue"
                 >
@@ -250,7 +250,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-4 col-sm-4">
                 <div
                   class="ml-1 card bg-dark text-light shadow-none text-center h-auto px-6 py-4 border-radius-md border-light-blue"
                 >
@@ -298,7 +298,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-4 col-sm-4">
                 <div
                   class="ml-2 card shadow-none text-center h-auto px-6 py-4 border-radius-md border-light-blue"
                 >
@@ -347,7 +347,7 @@
         </div>
       </section>
 
-      <section id="contact" class="py-12 bg-grey h-auto">
+      <section id="contact" class="py-12 bg-muted h-auto">
         <div class="px-12">
           <div class="pt-12 bg-dark text-light h-75">
             <div class="w-75 mx-auto row align-center justify-evenly">
@@ -425,12 +425,70 @@
           </div>
         </div>
       </section>
-      <section id="corrective-section" class="h-50 bg-grey"></section>
-      <section class="footer h-50 bg-light">
+      <section id="corrective-section" class="h-50 bg-muted"></section>
+      <section class="h-20 bg-muted">
         <div class="w-50 mx-auto">
-          <div class="row justify-between"></div>
+          <div class="row justify-between d-sm-col">
+            <div class="col-8">
+              <div class="placeholder">
+                <p class="text-dark text-big">
+                  Consulting Agency For Your Business
+                </p>
+                <p class="text-grey">the quick fox jumps over the lazy dog</p>
+              </div>
+            </div>
+            <div class="col-4 col-sm-4 text-right text-left-sm">
+              <button class="btn btn-primary">Contact Us</button>
+            </div>
+          </div>
         </div>
       </section>
+      <section id="quick-links bg-light ">
+        <div class="w-50 mx-auto py-12">
+          <div class="row justify-between">
+            <div class="col">
+              <p class="mb-4 text-md">Company Info</p>
+              <p>About us</p>
+              <p>Career</p>
+              <p>We are hiring</p>
+              <p>Blog</p>
+            </div>
+            <div class="col">
+              <p class="mb-4 text-md">Legal</p>
+              <p>About us</p>
+              <p>Career</p>
+              <p>We are hiring</p>
+              <p>Blog</p>
+            </div>
+            <div class="col">
+              <p class="mb-4 text-md">Feautures</p>
+              <p>About us</p>
+              <p>Career</p>
+              <p>We are hiring</p>
+              <p>Blog</p>
+            </div>
+            <div class="col">
+              <p class="mb-4 text-md">Resources</p>
+              <p>About us</p>
+              <p>Career</p>
+              <p>We are hiring</p>
+              <p>Blog</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-muted">
+        <div class="w-50 mx-auto py-12">
+          <div class="row align-center justify-between">
+            <p>Made with love By Figma and All Rights Reserved</p>
+            <div class="icons">
+              <span class="fab fa-facebook text-primary"></span>
+              <span class="fab fa-instagram text-primary"></span>
+              <span class="fab fa-twitter text-primary"></span>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
