@@ -24,7 +24,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../assets/hero.png");
-  
 }
 .filter-0 {
   filter: 0 !important;
@@ -37,7 +36,7 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .col-sm-8{
+  .col-sm-8 {
     width: 66.6666%;
   }
   .d-sm-none {
@@ -61,10 +60,15 @@ body {
     padding-bottom: 0.25rem;
   }
 
-.pt-48 {
-  padding-top: 16rem;
-}
-
+  .pt-48 {
+    padding-top: 16rem;
+  }
+  .pt-24 {
+    padding-top: 8rem;
+  }
+  .w-sm-full {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 600px) {
   .d-sm {

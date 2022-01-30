@@ -399,21 +399,24 @@
           <div class="pt-12 bg-dark text-light h-75">
             <div class="w-75 mx-auto row align-center justify-evenly">
               <div class="col-6">
-                <div class="text-big">
+                <div class="text-xl font-bold">
                   We Have Branched All <br />
                   Over The World
                 </div>
                 <div class="desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, quisquam.
+                  Voluptatum, quisquam. Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Earum, soluta!
                 </div>
               </div>
               <div class="col-6 text-right">
                 <img src="./assets/world.png" alt="World" class="h-50 w-50" />
               </div>
             </div>
-            <div class="mt-12 py-12">
-              <div class="mx-auto w-50 bg-muted position-relative text-dark">
+            <div class="mt-6 py-12">
+              <div
+                class="mx-auto w-50 w-sm-full bg-muted position-relative text-dark"
+              >
                 <div class="row">
                   <div class="col-4">
                     <img
@@ -423,7 +426,9 @@
                     />
                   </div>
                   <div class="col-8">
-                    <div class="title text-center">Book Appointment</div>
+                    <div class="text-lg font-bold text-center">
+                      Book Appointment
+                    </div>
 
                     <div class="form-group">
                       <label for="name">Name*</label>
@@ -431,7 +436,7 @@
                       <input
                         id="name"
                         name="full-name"
-                        class="form-control w-100 mt-3 border-grey bg-grey"
+                        class="form-control w-100 mt-3 border-none bg-light-grey"
                         type="text"
                         placeholder="Full Name"
                       />
@@ -441,7 +446,7 @@
                       <input
                         id="name"
                         name="full-name"
-                        class="form-control w-100 mt-3 border-grey bg-grey"
+                        class="form-control w-100 mt-3 border-none bg-light-grey"
                         type="text"
                         placeholder="example@name.com"
                       />
@@ -449,8 +454,8 @@
                       <label for="name">Department*</label>
                       <br />
                       <select class="w-100 form-control mt-3 border-none">
-                        <option value="0">Select Department</option>
-                        <option value="0">Select Department</option>
+                        <option value="0">Please Select</option>
+                        <option value="0">IT</option>
                       </select>
                       <br />
                       <label for="name">Time*</label>
@@ -460,7 +465,7 @@
                         <option value="0">Select Department</option>
                       </select>
                       <div class="mt-6">
-                        <button class="w-100 btn btn-primary">
+                        <button class="w-100 btn btn-primary border-radius-sm">
                           Book Appointment
                         </button>
                       </div>
@@ -473,62 +478,79 @@
         </div>
       </section>
       <section id="corrective-section" class="h-50 bg-muted"></section>
-      <section class="h-20 bg-muted">
-        <div class="w-50 mx-auto">
-          <div class="row justify-between d-sm-col">
+      <section class="pt-24 h-10 bg-muted">
+        <div class="w-75 mx-auto">
+          <div class="row justify-between align-center">
             <div class="col-8">
               <div class="placeholder">
-                <p class="text-dark text-big">
+                <p class="text-dark text-lg font-bold">
                   Consulting Agency For Your Business
                 </p>
                 <p class="text-grey">the quick fox jumps over the lazy dog</p>
               </div>
             </div>
-            <div class="col-4 col-sm-4 text-right text-left-sm">
-              <button class="btn btn-primary">Contact Us</button>
+            <div class="col-4 text-right">
+              <button class="btn btn-primary border-radius-sm">
+                Contact Us
+              </button>
             </div>
           </div>
         </div>
       </section>
-      <section id="quick-links bg-light ">
-        <div class="w-50 mx-auto py-12">
+      <section id="mb-6 quick-links bg-light ">
+        <div class="w-75 pt-24 mx-auto">
           <div class="row justify-between">
             <div class="col">
-              <p class="mb-4 text-md">Company Info</p>
+              <p class="my-4 text-md text-lg font-bold">Company Info</p>
               <p>About us</p>
               <p>Career</p>
               <p>We are hiring</p>
               <p>Blog</p>
             </div>
             <div class="col">
-              <p class="mb-4 text-md">Legal</p>
+              <p class="my-4 text-md text-lg font-bold">Legal</p>
               <p>About us</p>
               <p>Career</p>
               <p>We are hiring</p>
               <p>Blog</p>
             </div>
             <div class="col">
-              <p class="mb-4 text-md">Feautures</p>
+              <p class="my-4 text-md text-lg font-bold">Feautures</p>
               <p>About us</p>
               <p>Career</p>
               <p>We are hiring</p>
               <p>Blog</p>
             </div>
             <div class="col">
-              <p class="mb-4 text-md">Resources</p>
+              <p class="my-4 text-md text-lg font-bold">Resources</p>
               <p>About us</p>
               <p>Career</p>
               <p>We are hiring</p>
               <p>Blog</p>
+            </div>
+            <div class="col">
+              <p class="my-4 text-md text-lg font-bold">Get In Touch</p>
+              <p><span class="fas fa-phone text-primary"></span> +123456789</p>
+              <p>
+                <span class="fas fa-location text-primary"></span> 45 Washington
+                Ave.
+              </p>
+              <p>
+                <span class="fas fa-envelope text-primary"></span> debra@hmail.com
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <footer class="bg-muted">
-        <div class="w-50 mx-auto py-12">
+      <footer class="mt-6 bg-muted">
+        <div class="w-75 mx-auto py-6">
           <div class="row align-center justify-between">
-            <p>Made with love By Figma and All Rights Reserved</p>
-            <div class="icons">
+            <div class="col-8">
+              <p class="text-sm">
+                Made with love By Figmaland. All Rights Reserved
+              </p>
+            </div>
+            <div class="col-4 text-right">
               <span class="fab fa-facebook text-primary"></span>
               <span class="fab fa-instagram text-primary"></span>
               <span class="fab fa-twitter text-primary"></span>

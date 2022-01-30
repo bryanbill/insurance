@@ -15,7 +15,7 @@ License: MIT
   --muted: #fafafa;
   --grey: #bdbdbd;
   --light-blue: #8ebbf5;
-  --light-grey: #f9f9f9;
+  --light-grey: #dddddd;
   --orange: #ff9f1c;
 }
 
@@ -767,7 +767,7 @@ License: MIT
 .text-primary {
   color: var(--primary);
 }
-.text-yellow{
+.text-yellow {
   color: var(--orange);
 }
 .text-accent {
