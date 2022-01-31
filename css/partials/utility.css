@@ -897,7 +897,8 @@ License: MIT
   border-radius: 5px;
   box-shadow: 0;
   border: none;
-  height: 30px;
+  height: 40px;
+  padding: 0 1rem;
 }
 
 .btn-neutral {
